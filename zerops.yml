@@ -4,4 +4,4 @@ use: [ go@1 ]
 run:
   - sleep 30
 # which files / folders to deploy after build
-deploy: [ "test3" ]
+deploy: [ "*" ]
