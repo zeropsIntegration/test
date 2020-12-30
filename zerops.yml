@@ -2,8 +2,7 @@
 use: [ go@1 ]
 # which commands to run to build
 run:
-  - v=`go version | { read _ _ v _; echo ${v#go}; }`
-  - echo $v
+  - go version
 # which files / folders to deploy after build
 
 deploy: [ "*" ]
