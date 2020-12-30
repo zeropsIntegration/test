@@ -2,7 +2,8 @@
 use: [ go@1 ]
 # which commands to run to build
 run:
-  - sleep 30
+  - v=`go version | { read _ _ v _; echo ${v#go}; }`
+  - echo $v
 # which files / folders to deploy after build
 
 deploy: [ "*" ]
