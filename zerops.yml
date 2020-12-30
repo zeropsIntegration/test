@@ -1,8 +1,8 @@
 # select what technology your build uses
-use: [ php@7.3 ]
+use: [ go@1, nodejs@13]
 # which commands to run to build
 run:
-  - php -v
+  - go version
+  - npm install
 # which files / folders to deploy after build
-
 deploy: [ "*" ]
