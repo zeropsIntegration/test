@@ -1,5 +1,5 @@
 # select what technology your build uses
-use: [ php@7.3 ]
+use: [ php@7.4 ]
 # which commands to run to build
 run:
   - php -v
